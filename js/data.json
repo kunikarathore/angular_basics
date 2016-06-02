@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "name": "asha",
+    "position": "Decorist | Mumbai",
+    "image" : "images/dp.png"
+}, {
+    "id": 2,
+    "name": "neha",
+    "position": "Painter | Delhi",
+    "image" : "images/dp.png"
+}, {
+    "id": 3,
+    "name": "aadhya",
+    "position": "Worker | Mumbai",
+    "image" : "images/dp.png"
+}, {
+    "id": 4,
+    "name": "sharad",
+    "position": "Designer | Chennai",
+    "image" : "images/dp.png"
+},{
+    "id": 5,
+    "name": "asha",
+    "position": "Decorist | Mumbai",
+    "image" : "images/dp.png"
+}, {
+    "id": 6,
+    "name": "neha",
+    "position": "Painter | Delhi",
+    "image" : "images/dp.png"
+}, {
+    "id": 7,
+    "name": "aadhya",
+    "position": "Worker | Mumbai",
+    "image" : "images/dp.png"
+}, {
+    "id": 8,
+    "name": "sharad",
+    "position": "Designer | Chennai",
+    "image" : "images/dp.png"
+}]

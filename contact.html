@@ -1,0 +1,24 @@
+<!--<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe" ng-model = "user_1.texting">
+   {{user_1}}
+   	sckdflgkbflgnf-->
+<button type="button" class="btn btn-warning style_pro_profile_status_img create_button" ui-sref="create"><span class="glyphicon glyphicon-plus-sign"> 
+</span> Create New </button>
+<table class="table table-bordered">
+<tbody>
+   <section  ng-repeat = "x in data">
+      <div class="style_pro_bg"></div>
+      <img ng-src = "{{x.image}}" class = "style_pro_profile_dp"> 
+      <div class = "style_pro_profile"> 
+         <span class="style_pro_profile_data_span">
+         <span class="style_pro_profile_name"> {{x.name}} </span>	<br>
+         <span class="style_pro_profile_post"> {{x.position}} </span>
+         </span>
+         <span class="style_pro_profile_status_span">
+         <button type="button" class="btn btn-warning style_pro_profile_status_img" ui-sref="edit"><span class="glyphicon glyphicon-edit"> 
+         </span> Edit </button>
+         </span>
+         <span class="style_pro_profile_status_span">
+         <button type="button" class="btn btn-warning style_pro_profile_status_img" ui-sref="view"> <span class="glyphicon glyphicon-hand-up"></span> View</button>
+         </span>
+      </div>
+   </section>

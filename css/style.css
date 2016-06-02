@@ -1,0 +1,178 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat-y;
+}
+.main_div {
+    width: 100%;
+    text-align: center;
+    padding: 16%;
+}
+.input {
+    border: 2px solid #3D2D30;
+    background: transparent;
+}
+.sign_in_btn {
+    background: transparent;
+    border: 1px solid #3D2D30;
+    padding: 6px 35px;
+}
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover {
+    background: transparent;
+    border: 1px solid #3D2D30;
+    padding: 6px 35px;
+    outline: none;
+}
+form {
+    color: #3D2D30;
+    font-size: 16px;
+    font-family: cursive;
+}
+.style_pro_bg {
+    width: 100%;
+    background: rgba(180, 132, 120, 0.53);
+    height: 129px;
+    border-radius: 10px 10px 0px 0px;
+}
+.style_pro_profile_dp {
+    width: 56px;
+    height: 56px;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.style_pro_profile {
+    padding: 8px;
+    height: 61px;
+}
+.style_pro_profile_data_span {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.style_pro_profile_name {
+    font-weight: bold;
+    font-size: 14px;
+    color: #7ac4cd;
+}
+.style_pro_profile_post {
+    font-size: 12px;
+    line-height: 16px;
+    color: #7ac4cd;
+}
+.style_pro_profile_status_span {
+    float: right;
+    width: 15%;
+    padding-top: 9px;
+}
+.style_pro_profile_status_img {
+    float: right;
+}
+section {
+    border-radius: 10px;
+    background: rgba(77, 57, 51, 0.71);
+    position: relative;
+    box-shadow: 4px 8px 5px #111111;
+    margin-bottom: 14px;
+}
+.form-group .upload {
+    display: inline-block;
+    border: 1px solid #c0c0c0;
+    background: #ffffff;
+    padding: 5px 14px;
+    color: #0662ba;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
+    margin: 0px;
+    font-size: 14px;
+    width: auto;
+    border-radius: 4px;
+    font-weight: normal;
+}
+.form-group .jfilestyle {
+    float: left;
+}
+.form-group {
+    height: 68px;
+    position: relative;
+}
+div {
+    width: 100%
+}
+.view span img {
+    width: 200px;
+    position: absolute;
+    vertical-align: middle;
+    height: 200px;
+    border-radius: 100px;
+    top: 67px;
+    left: 30px;
+}
+.view span {
+    width: 50%;
+    position: relative;
+    height: 386px;
+    border: 5px solid black;
+    padding: 0 12px;
+}
+.view_img {
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+}
+.view_about {
+    overflow: hidden;
+    box-sizing: border-box;
+    float: right;
+}
+.view_2 {
+    clear: both;
+    padding: 19px 0px;
+    color: #767D6D;
+}
+.view_2 p {
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 16px 0px;
+    background: #3C272C;
+    font-size: 45px;
+}
+.btn-warning {
+    background-color: #361A19;
+    border-color: #361A19;
+}
+.btn-warning:hover {
+    background-color: #85665D;
+    border-color: #361A19;
+}
+.create_button {
+    position: relative;
+    top: -80px;
+    padding: 10px 24px;
+}
+.form-group textarea {
+    border: 2px solid #3D2D30;
+    background: transparent;
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family: glyphicons-halflings-regular;
+    src: url(glyphicons-halflings-regular.woff2);
+}
+@font-face {
+    font-family: glyphicons-halflings-regular;
+    src: url(glyphicons-halflings-regular.woff);
+}
+@font-face {
+    font-family: glyphicons-halflings-regular;
+    src: url(glyphicons-halflings-regular.ttf);
+}
+@font-face {
+    font-family: glyphicons-halflings-regular;
+    src: url(glyphicons-halflings-regular.eot);
+}
